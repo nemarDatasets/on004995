@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "The Time-Course of Food Representation in the Human Brain",
+  "description": "This dataset contains raw EEG recordings investigating the temporal dynamics of food representation in the human brain. The study employs electroencephalography to characterize how food-related information is processed and represented across different time windows during neural processing. The data are organized in BIDS format to facilitate reproducibility and secondary analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +14,24 @@
       "orcid": "0000-0002-3953-4195"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004995.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "food representation"
+    },
+    {
+      "term": "temporal dynamics"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "neural processing"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.17605/OSF.IO/PWC4K",
       "identifier_type": "DOI",
@@ -48,6 +61,11 @@
       "identifier": "10.1038/sdata.2018.110",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004995.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -60,12 +78,12 @@
       "award_number": "DP200101787"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "29.6 GB (77 files)"
   ],
   "formats": [
     ".eeg",
@@ -73,43 +91,9 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset contains electroencephalography (EEG) recordings investigating the temporal dynamics of food representation in the human brain. The study employs BIDS-formatted raw EEG data to characterize how food-related information is processed and represented across different time windows during neural processing. Participants viewed images of food and non-food objects while EEG was recorded. This resource provides a foundation for understanding the neural mechanisms underlying food perception and cognition.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "food perception"
-    },
-    {
-      "term": "neural representation"
-    },
-    {
-      "term": "time-course analysis"
-    },
-    {
-      "term": "brain imaging"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "temporal dynamics"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "object recognition"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "food cognition"
-    }
-  ],
-  "source_hash": "669b2e04be4723df8e71f47b45b295d820d925461124e45d1bfaf3d2c2dd431f"
+  "methods_description": "EEG data were collected and organized according to the Brain Imaging Data Structure (BIDS) standard. Analysis code and associated figures are available through the Open Science Framework.",
+  "source_hash": "a58d5ed0ce51115cb45086e169bc9460e0214cefaa06f27f7208fcd661fb0231"
 }
