@@ -1,0 +1,38 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004995",
+  "source": "openneuro",
+  "source_id": "ds004995",
+  "title": "The Time-Course of Food Representation in the Human Brain",
+  "authors": {
+    "Denise Moerel": {},
+    "James Psihoyos": {},
+    "Thomas A. Carlson": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004995.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.2",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "ARC DP160101300 (TAC)"
+    },
+    {
+      "funder_name": "ARC DP200101787 (TAC)"
+    }
+  ],
+  "acknowledgements": "We would like to acknowledge the University of Sydney HPC service for providing High Performance Computing resources."
+}
