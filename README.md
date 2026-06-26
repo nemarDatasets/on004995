@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004995-blue)](https://doi.org/10.82901/nemar.on004995)
+
 The main folder contains the raw EEG data in standard bids format. See references.
 
 Code and figures: https://doi.org/10.17605/OSF.IO/PWC4K
