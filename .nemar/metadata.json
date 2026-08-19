@@ -2,7 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Time-Course of Food Representation in the Human Brain",
-  "description": "This dataset contains raw EEG recordings investigating the temporal dynamics of food representation in the human brain. The study employs electroencephalography to characterize how food-related information is processed and represented across different time windows during neural processing. The data are organized in BIDS format to facilitate reproducibility and secondary analysis.",
+  "description": "This dataset comprises raw EEG recordings collected to investigate the time-course of food representation in the human brain. Participants viewed food-related stimuli while EEG was recorded, enabling analysis of temporal neural dynamics underlying food perception and categorization. The dataset supports research on visual object and food representation using time-resolved decoding approaches.",
+  "methods_description": "EEG data were collected and organized according to the Brain Imaging Data Structure (BIDS) standard. Analysis code and associated figures are available through the Open Science Framework.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,16 +20,18 @@
       "term": "EEG"
     },
     {
-      "term": "food representation"
+      "term": "food perception"
     },
     {
-      "term": "temporal dynamics"
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
-      "term": "brain imaging"
+      "term": "time-course decoding"
     },
     {
-      "term": "neural processing"
+      "term": "human brain"
     }
   ],
   "related_identifiers": [
@@ -40,15 +43,10 @@
     {
       "identifier": "10.1101/2023.06.06.543985",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004995",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004995",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -66,6 +64,11 @@
       "identifier": "10.18112/openneuro.ds004995.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004995",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -94,6 +97,5 @@
     ".vmrk",
     ".yml"
   ],
-  "methods_description": "EEG data were collected and organized according to the Brain Imaging Data Structure (BIDS) standard. Analysis code and associated figures are available through the Open Science Framework.",
   "source_hash": "a58d5ed0ce51115cb45086e169bc9460e0214cefaa06f27f7208fcd661fb0231"
 }
