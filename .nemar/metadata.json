@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Time-Course of Food Representation in the Human Brain",
-  "description": "This dataset comprises raw EEG recordings collected to investigate the time-course of food representation in the human brain. Participants viewed food-related stimuli while EEG was recorded, enabling analysis of temporal neural dynamics underlying food perception and categorization. The dataset supports research on visual object and food representation using time-resolved decoding approaches.",
+  "description": "This dataset contains raw EEG recordings, organized in BIDS format, collected to study the time-course of food representation in the human brain. It supports analyses of how neural responses to food stimuli unfold over time. Code, figures and the associated manuscript are available through linked resources.",
   "methods_description": "EEG data were collected and organized according to the Brain Imaging Data Structure (BIDS) standard. Analysis code and associated figures are available through the Open Science Framework.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -23,15 +23,13 @@
       "term": "food perception"
     },
     {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+      "term": "visual perception"
     },
     {
-      "term": "time-course decoding"
+      "term": "temporal dynamics"
     },
     {
-      "term": "human brain"
+      "term": "object representation"
     }
   ],
   "related_identifiers": [
@@ -43,7 +41,7 @@
     {
       "identifier": "10.1101/2023.06.06.543985",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004995",
@@ -69,15 +67,20 @@
       "identifier": "https://nemar.org/dataset/on004995",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2021.05.24.445376",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "ARC",
+      "funder_name": "Australian Research Council",
       "award_number": "DP160101300"
     },
     {
-      "funder_name": "ARC",
+      "funder_name": "Australian Research Council",
       "award_number": "DP200101787"
     }
   ],
@@ -86,7 +89,7 @@
     "eeg"
   ],
   "sizes": [
-    "29.6 GB (77 files)"
+    "27.60 GB (77 files)"
   ],
   "formats": [
     ".eeg",
